@@ -16,5 +16,4 @@ collections
 
 **Further Development:**
 * GUI file dialog when selecting PDF file.
-* Colour output text.
 * Option to save keywords to file.
