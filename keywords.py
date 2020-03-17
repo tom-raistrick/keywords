@@ -43,6 +43,8 @@ for x in words:
         filtered_words.append(x)
 
 word_frequency = Counter(filtered_words)
+
+# Edit x in '.most_common(x)' to set number of keywords
 keywords = word_frequency.most_common(10)
 
 print(keywords)
