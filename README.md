@@ -12,3 +12,9 @@ collections
 1. Install dependencies
 2. Edit PDF filename (relative to terminal working directory) in keywords.py  
 3. Run keywords.py in terminal
+
+
+**Further Development:**
+* GUI file dialog when selecting PDF file.
+* Colour output text.
+* Option to save keywords to file.
