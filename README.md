@@ -9,5 +9,6 @@ nltk
 collections  
 
 **Usage:**  
-1. Edit PDF filename (relative to terminal working directory) in keywords.py  
-2. Run keywords.py in terminal
+1. Install dependencies
+2. Edit PDF filename (relative to terminal working directory) in keywords.py  
+3. Run keywords.py in terminal
