@@ -1,4 +1,5 @@
 import io
+import os
 from pdfminer3.layout import LAParams
 from pdfminer3.pdfpage import PDFPage
 from pdfminer3.pdfinterp import PDFResourceManager
@@ -36,7 +37,7 @@ words = text\
 
 words = list(filter(''.__ne__, words))
 
-stopwords = set(open('stopwords_english', 'r').read().splitlines())
+stopwords = set(open(str(os.path.dirname(os.path.abspath(__file__))) + '/stopwords_english', 'r').read().splitlines())
 
 filtered_words = []
 
