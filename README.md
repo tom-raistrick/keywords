@@ -1,6 +1,6 @@
 # keywords - Extract keywords from PDF files
 
-Written in python 3.7  
+Written in python 3.8  
 
 **Dependencies:**   
 pdfminer3    
