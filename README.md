@@ -6,9 +6,9 @@ Written in python 3.7
 pdfminer3    
 
 **Usage:**  
-1. Install dependencies
-2. Edit PDF filename (relative to terminal working directory) in keywords.py  
-3. Run keywords.py in terminal
+1. Install dependencies.
+2. Edit PDF filename (relative to script directory) in keywords.py.  
+3. Run keywords.py from script directory.
 
 
 **Further Development:**
