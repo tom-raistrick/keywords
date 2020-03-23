@@ -3,8 +3,7 @@
 Written in python 3.8  
 
 **Dependencies:**   
-pdfminer3  
-nltk  
+pdfminer3    
 
 **Usage:**  
 1. Install dependencies
