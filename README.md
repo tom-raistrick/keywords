@@ -2,8 +2,7 @@
 
 Written in python 3.8  
 
-**Dependencies:**  
-io  
+**Dependencies:**   
 pdfminer3  
 nltk  
 collections  
