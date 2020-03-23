@@ -5,7 +5,6 @@ Written in python 3.8
 **Dependencies:**   
 pdfminer3  
 nltk  
-collections  
 
 **Usage:**  
 1. Install dependencies
