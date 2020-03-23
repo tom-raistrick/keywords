@@ -8,7 +8,7 @@ from pdfminer3.converter import TextConverter
 from collections import Counter
 
 
-# Edit filename to set target PDF file
+# Edit filename to set target PDF file (relative to working directory)
 filename = 'resources/SocialRecovery.pdf'
 
 # Edit keyword_num to set number of keywords
