@@ -7,8 +7,8 @@ pdfminer3
 
 **Usage:**  
 1. Install dependencies.
-2. Edit PDF filename (relative to script directory) in keywords.py.  
-3. Run keywords.py from script directory.
+2. Edit PDF filename (relative to working directory) in keywords.py.  
+3. Run keywords.py.
 
 
 **Further Development:**
