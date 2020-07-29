@@ -1,5 +1,7 @@
 import io
 import os
+import tkinter
+from tkinter import filedialog
 from pdfminer3.layout import LAParams
 from pdfminer3.pdfpage import PDFPage
 from pdfminer3.pdfinterp import PDFResourceManager
@@ -7,13 +9,17 @@ from pdfminer3.pdfinterp import PDFPageInterpreter
 from pdfminer3.converter import TextConverter
 from collections import Counter
 
+root = tkinter.Tk()
 
-# Edit filename to set target PDF file (relative to working directory)
-filename = 'resources/SocialRecovery.pdf'
+# Hide unnecessary GUI element
+root.withdraw()
+
+filename = filedialog.askopenfilename()
+
+print('Processing file...')
 
 # Edit keyword_num to set number of keywords
 keyword_num = 10
-
 
 resource_manager = PDFResourceManager()
 fake_file_handle = io.StringIO()
