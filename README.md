@@ -2,7 +2,7 @@
 
 Written in python 3.8  
 
-**Dependencies:**   
+**External Dependencies:**   
 pdfminer3    
 
 **Usage:**  
